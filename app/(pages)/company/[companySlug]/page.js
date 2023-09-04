@@ -16,7 +16,7 @@ const ComapnySlug = ({ params }) => {
         (slug !== "Leadership" && slug == "Nothing Found")} */}
       <CompBanner
         title={
-          slug === "About US" ||
+          slug === "About Us" ||
           slug === "Missions Statement" ||
           slug === "Leadership"
             ? slug
