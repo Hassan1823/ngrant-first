@@ -130,3 +130,66 @@ export const executiveData = [
       `,
   },
 ];
+
+export const subsCardsData = [
+  {
+    name: "MLDR",
+    title: "Detect & Response to adversarial ML attacks.",
+    points: [
+      "Real-time defense",
+      "Flexible response options including alerting, isolation, profiling, and misleading",
+      `Configurable setting fine-tuned to your company's needs`,
+    ],
+  },
+  {
+    name: "MODEL SCANNER",
+    title: "Scan & guarantee model integrity.",
+    points: [
+      "Real-time defense",
+      "Flexible response options including alerting, isolation, profiling, and misleading",
+      `Configurable setting fine-tuned to your company's needs`,
+    ],
+  },
+  {
+    name: "SECURITY AUDIT REPORTING",
+    title: "Validate ML model security across the enterprise.",
+    points: [
+      "Real-time defense",
+      "Flexible response options including alerting, isolation, profiling, and misleading",
+      `Configurable setting fine-tuned to your company's needs`,
+    ],
+  },
+];
+
+export const OutlawServices = [
+  {
+    title: "Threat Modeling",
+    desc: `An all-encompassing interview and interactive whiteboard session aimed at comprehending your business requirements and the AI/ML risk scenario. By conducting exploratory interviews and engaging in scenario-driven conversations, we will evaluate the comprehensive risks posed by the AI/ML landscape and your assets. The final output will provide an elaborate breakdown of potential threat avenues, their probabilities, consequences, affected assets, necessary measures for correction and restoration, as well as the countermeasures essential for optimizing resources and minimizing risks.`,
+    imgLink: "/ORL_Logo_transparent.png",
+  },
+  {
+    title: "Risk Assessments",
+    desc: `A thorough examination of your ML Operations lifecycle and an extensive analysis of your most crucial ML models, aimed at assessing the existing risk posed by your AI/ML investments to the organization. This evaluation will also identify the necessary efforts and/or controls needed to enhance the situation.`,
+    imgLink: "/ORL_Logo_transparent.png",
+  },
+  {
+    title: "Red Team Assessments ",
+    desc: `Our skilled Adversarial Machine Learning Research (AMLR) Team will will effectively simulate tactics, techniques, and procedures (TTPs) utilized by attackers (refer to the image below and the MITRE ATLAS framework) to evaluate the efficacy of your current personnel, workflows, and safeguards in detecting and thwarting these attacks.`,
+    imgLink: "/ORL_Logo_transparent.png",
+  },
+  {
+    title: "AI/ML Model Analysis",
+    desc: `Our security experts at ORLabs use a proprietary tool to analyze the model’s integrity through careful examination and verify the absence of threats (such as malware) and unauthorized alterations including bias within the existing AI/ML models.`,
+    imgLink: "/ORL_Logo_transparent.png",
+  },
+  {
+    title: "AI/ ML Incident Response",
+    desc: `Our engineers will seamlessly deploy and integrate ORLab’s MLDR product into the AI/ML ecosystem. This empowers the data science and security teams with the essential capabilities and insights needed to proactively mitigate attacks, enhance responsiveness, and optimize the efficiency of models.`,
+    imgLink: "/ORL_Logo_transparent.png",
+  },
+  {
+    title: "Expert Training ",
+    desc: `Customized Training tailored to meet your enterprises personalized needs; from common Adversarial Machine Learning attack, effect countermeasures, or end-user security best practices; we will help fill out your team knowledge in this new era!`,
+    imgLink: "/ORL_Logo_transparent.png",
+  },
+];
